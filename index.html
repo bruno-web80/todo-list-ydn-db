@@ -1,0 +1,35 @@
+<html>
+  <head>
+    <title>Minha Lista Offline</title>
+    <meta charset="utf-8" />
+<!-- CSS -->
+    <!-- BOOTSTRAP 3.3.5 -->
+    <link rel="stylesheet" href="vendor/bootstrap-3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="vendor/bootstrap-3.3.5/css/bootstrap-theme.min.css">
+<!-- JS -->
+    <!-- JQUERY 1.11.3 -->
+    <script src="vendor/jquery-1.11.3.min.js"></script>
+    <!-- BOOTSTRAP 3.3.5 -->
+    <script src="vendor/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+    <!-- YDN-DB 1.3.3 -->
+    <script src="vendor/ydn.db-is-core-qry.min.js"></script>
+    <!-- MEU SCRIPT -->
+    <script src="js/script.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+            <div class="form-group">
+              <h1>Minha Lista</h1>
+              <form role="form">
+                  <input type="text" class="form-control" placeholder="No que você está pensando?" id="mensagem" autocomplete="off" />
+              </form>
+              <button type="button" class="btn btn btn-primary" id="publicar">Publicar</button>
+            </div>
+            <div class="list-group" id="lista"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
